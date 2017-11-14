@@ -10,7 +10,7 @@ LIBS=-lm
 _DEPS = vector.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-_OBJ = main2.o addvec.o multvec.o
+_OBJ = main2.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 
