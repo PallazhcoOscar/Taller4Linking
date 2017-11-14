@@ -3,11 +3,6 @@
 #include <stdio.h>
 #include "vector.h"
 
-/*Crear los vectores*/
-Vector v1;
-Vector v2;
-Vector v3;
-Vector v4;
 int main(){
 	/*Crear los vectores*/
 	Vector v1, v2, v3, v4;
